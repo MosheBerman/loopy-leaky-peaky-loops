@@ -1,0 +1,1 @@
+This project is a demonstration of ARC misbehaving with large loops which create NSString object. Download, uncomment one of the methods in the viewDidLoad method of the view controller, and watch it blow up in four different unique ways by using the Allocations profiler in Instruments.
