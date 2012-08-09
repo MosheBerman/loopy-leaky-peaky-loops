@@ -18,14 +18,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		46C78D1115D1A377006EE5F2 /* RecursiveString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecursiveString.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C78D1115D1A377006EE5F2 /* LeakyPeakyString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeakyPeakyString.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46C78D1515D1A377006EE5F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		46C78D1715D1A377006EE5F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		46C78D1915D1A377006EE5F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		46C78D1D15D1A377006EE5F2 /* RecursiveString-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecursiveString-Info.plist"; sourceTree = "<group>"; };
+		46C78D1D15D1A377006EE5F2 /* LeakyPeakyString-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeakyPeakyString-Info.plist"; sourceTree = "<group>"; };
 		46C78D1F15D1A377006EE5F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46C78D2115D1A377006EE5F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		46C78D2315D1A377006EE5F2 /* RecursiveString-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecursiveString-Prefix.pch"; sourceTree = "<group>"; };
+		46C78D2315D1A377006EE5F2 /* LeakyPeakyString-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeakyPeakyString-Prefix.pch"; sourceTree = "<group>"; };
 		46C78D2415D1A377006EE5F2 /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
 		46C78D2515D1A377006EE5F2 /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
 		46C78D2715D1A377006EE5F2 /* MBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBViewController.h; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		46C78D1215D1A377006EE5F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46C78D1115D1A377006EE5F2 /* RecursiveString.app */,
+				46C78D1115D1A377006EE5F2 /* LeakyPeakyString.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,10 +90,10 @@
 		46C78D1C15D1A377006EE5F2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				46C78D1D15D1A377006EE5F2 /* RecursiveString-Info.plist */,
+				46C78D1D15D1A377006EE5F2 /* LeakyPeakyString-Info.plist */,
 				46C78D1E15D1A377006EE5F2 /* InfoPlist.strings */,
 				46C78D2115D1A377006EE5F2 /* main.m */,
-				46C78D2315D1A377006EE5F2 /* RecursiveString-Prefix.pch */,
+				46C78D2315D1A377006EE5F2 /* LeakyPeakyString-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		46C78D1015D1A377006EE5F2 /* RecursiveString */ = {
+		46C78D1015D1A377006EE5F2 /* LeakyPeakyString */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46C78D2F15D1A377006EE5F2 /* Build configuration list for PBXNativeTarget "RecursiveString" */;
+			buildConfigurationList = 46C78D2F15D1A377006EE5F2 /* Build configuration list for PBXNativeTarget "LeakyPeakyString" */;
 			buildPhases = (
 				46C78D0D15D1A377006EE5F2 /* Sources */,
 				46C78D0E15D1A377006EE5F2 /* Frameworks */,
@@ -113,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = RecursiveString;
+			name = LeakyPeakyString;
 			productName = RecursiveString;
-			productReference = 46C78D1115D1A377006EE5F2 /* RecursiveString.app */;
+			productReference = 46C78D1115D1A377006EE5F2 /* LeakyPeakyString.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Moshe Berman";
 			};
-			buildConfigurationList = 46C78D0B15D1A377006EE5F2 /* Build configuration list for PBXProject "RecursiveString" */;
+			buildConfigurationList = 46C78D0B15D1A377006EE5F2 /* Build configuration list for PBXProject "LeakyPeakyString" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -140,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				46C78D1015D1A377006EE5F2 /* RecursiveString */,
+				46C78D1015D1A377006EE5F2 /* LeakyPeakyString */,
 			);
 		};
 /* End PBXProject section */
@@ -243,9 +243,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RecursiveString/RecursiveString-Prefix.pch";
-				INFOPLIST_FILE = "RecursiveString/RecursiveString-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RecursiveString/LeakyPeakyString-Prefix.pch";
+				INFOPLIST_FILE = "RecursiveString/LeakyPeakyString-Info.plist";
+				PRODUCT_NAME = LeakyPeakyString;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -254,9 +254,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RecursiveString/RecursiveString-Prefix.pch";
-				INFOPLIST_FILE = "RecursiveString/RecursiveString-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RecursiveString/LeakyPeakyString-Prefix.pch";
+				INFOPLIST_FILE = "RecursiveString/LeakyPeakyString-Info.plist";
+				PRODUCT_NAME = LeakyPeakyString;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -264,7 +264,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46C78D0B15D1A377006EE5F2 /* Build configuration list for PBXProject "RecursiveString" */ = {
+		46C78D0B15D1A377006EE5F2 /* Build configuration list for PBXProject "LeakyPeakyString" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46C78D2D15D1A377006EE5F2 /* Debug */,
@@ -273,13 +273,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46C78D2F15D1A377006EE5F2 /* Build configuration list for PBXNativeTarget "RecursiveString" */ = {
+		46C78D2F15D1A377006EE5F2 /* Build configuration list for PBXNativeTarget "LeakyPeakyString" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46C78D3015D1A377006EE5F2 /* Debug */,
 				46C78D3115D1A377006EE5F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
