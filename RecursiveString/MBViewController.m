@@ -24,7 +24,7 @@
     //
     
  
-//    [self loopStringNoAutorelease];
+    [self loopStringNoAutorelease];
 //    [self loopMutableNoAutorelease];
 //    [self loopStringWithAutorelease];
 //    [self loopMutableWithAutorelease];
